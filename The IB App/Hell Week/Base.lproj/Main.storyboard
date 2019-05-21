@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zc2-xN-34p">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Light.ttf">
+            <string>Montserrat-Light</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Home View Controller" id="BYZ-38-t0r" customClass="HomeViewController" customModule="Hell_Week" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IB logo" translatesAutoresizingMaskIntoConstraints="NO" id="AIm-fb-iFn">
+                                <rect key="frame" x="103.66666666666669" y="50" width="207" height="207"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="AIm-fb-iFn" secondAttribute="height" multiplier="1:1" id="xnf-ds-aUe"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to the IB Program!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70m-zg-9kb">
+                                <rect key="frame" x="37.333333333333343" y="279" width="339.33333333333326" height="29.333333333333314"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat Light" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="64b-y7-en6">
+                                <rect key="frame" x="0.0" y="328.33333333333331" width="414" height="250.66666666666669"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Suffering and exhaustion" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KG-1Z-XT2">
+                                        <rect key="frame" x="8" y="64" width="116" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stress and anxiety" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFv-qd-oK6">
+                                        <rect key="frame" x="295" y="61" width="111" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sadness" translatesAutoresizingMaskIntoConstraints="NO" id="xXr-Kz-62a">
+                                        <rect key="frame" x="34" y="132" width="90" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Exhaustion" translatesAutoresizingMaskIntoConstraints="NO" id="9ie-tv-jNQ">
+                                        <rect key="frame" x="163" y="132" width="90" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Stress" translatesAutoresizingMaskIntoConstraints="NO" id="X1A-SE-o73">
+                                        <rect key="frame" x="305" y="132" width="90" height="84"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is what you will be experiencing for 2 years:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szi-VN-LgR">
+                                        <rect key="frame" x="16" y="19" width="390" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chronic sleep deprivation" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdJ-D7-qxH">
+                                        <rect key="frame" x="143" y="52" width="130" height="69"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BuC-MU-Xtp">
+                                <rect key="frame" x="62" y="619" width="290" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="4XD-US-QhQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat SemiBold" pointSize="15"/>
+                                <state key="normal" title="ENTER AT YOUR OWN PERIL">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="9Mn-Yb-pVn" kind="show" id="EJ1-R1-gfg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BuC-MU-Xtp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8Sh-U6-7dC"/>
+                            <constraint firstItem="64b-y7-en6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="F3O-8d-u96"/>
+                            <constraint firstItem="BuC-MU-Xtp" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.7" id="GQe-cc-gUk"/>
+                            <constraint firstItem="64b-y7-en6" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Jtb-VP-dqs"/>
+                            <constraint firstItem="AIm-fb-iFn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rla-Uu-cxf"/>
+                            <constraint firstItem="64b-y7-en6" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" multiplier="1.2" id="Uzr-M2-9XS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BuC-MU-Xtp" secondAttribute="bottom" multiplier="1.1" id="VCy-uA-cO5"/>
+                            <constraint firstItem="70m-zg-9kb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jmV-Sp-DQD"/>
+                            <constraint firstItem="AIm-fb-iFn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="kVj-mB-99Q"/>
+                            <constraint firstItem="AIm-fb-iFn" firstAttribute="width" secondItem="6Tk-OE-BBY" secondAttribute="width" multiplier="0.5" id="qLi-bj-Cmh"/>
+                            <constraint firstItem="64b-y7-en6" firstAttribute="top" secondItem="70m-zg-9kb" secondAttribute="bottom" constant="20" id="rno-ab-bUq"/>
+                            <constraint firstItem="64b-y7-en6" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.35" id="ud8-KH-jrG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NZj-o4-cUk"/>
+                    <connections>
+                        <outlet property="descriptionView" destination="64b-y7-en6" id="OZK-8a-Hd3"/>
+                        <outlet property="enterButton" destination="BuC-MU-Xtp" id="EDF-1e-mka"/>
+                        <outlet property="ibLogoImageView" destination="AIm-fb-iFn" id="BPP-jD-mPc"/>
+                        <outlet property="welcomeLabel" destination="70m-zg-9kb" id="QXI-cN-vJd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1071.0144927536232" y="132.88043478260872"/>
+        </scene>
+        <!--Courses View Controller-->
+        <scene sceneID="ixt-M5-9kO">
+            <objects>
+                <viewController title="Courses View Controller" id="9Mn-Yb-pVn" customClass="CoursesViewController" customModule="Hell_Week" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PeL-wc-lXX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="nNn-hz-e47">
+                                <rect key="frame" x="20" y="164.33333333333331" width="374" height="551.66666666666674"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="courseTableViewCell" rowHeight="100" id="9hN-bT-POO" customClass="CoursesTableViewCell" customModule="Hell_Week" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="374" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9hN-bT-POO" id="SsW-jN-M6j">
+                                            <rect key="frame" x="0.0" y="0.0" width="374" height="99.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Course name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pk4-OP-Jua">
+                                                    <rect key="frame" x="123" y="19" width="185" height="28"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7h0-tV-6U5">
+                                                    <rect key="frame" x="324" y="19" width="34" height="61"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat SemiBold" pointSize="36"/>
+                                                    <color key="textColor" white="0.66666666666666663" alpha="0.75" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Level" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4c-cb-eRd">
+                                                    <rect key="frame" x="123" y="55" width="157" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OKa-pc-vzA">
+                                                    <rect key="frame" x="20" y="15" width="63" height="65"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="courseImageView" destination="OKa-pc-vzA" id="vi7-r7-FZQ"/>
+                                            <outlet property="courseNameLabel" destination="pk4-OP-Jua" id="UA7-io-s46"/>
+                                            <outlet property="courseShortDescriptionLabel" destination="M4c-cb-eRd" id="oYU-dN-3zk"/>
+                                            <outlet property="groupNumberLabel" destination="7h0-tV-6U5" id="Pd8-nu-IYu"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="9Mn-Yb-pVn" id="6BS-Gr-Dvf"/>
+                                    <outlet property="delegate" destination="9Mn-Yb-pVn" id="Taz-L0-XZ0"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Now pick your poison:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cK-Cl-khA">
+                                <rect key="frame" x="20" y="55.000000000000007" width="260.33333333333331" height="29.333333333333336"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat Light" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Type course name here" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="VlJ-4B-lcn">
+                                <rect key="frame" x="20" y="104.33333333333333" width="374" height="39.999999999999986"/>
+                                <color key="backgroundColor" white="1" alpha="0.69844285102739723" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="OKw-Fg-kYM"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftSpacer">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="delegate" destination="9Mn-Yb-pVn" id="Q6J-Mc-Zct"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tug-JD-tn8" firstAttribute="trailing" secondItem="VlJ-4B-lcn" secondAttribute="trailing" constant="20" id="6MZ-Vr-EuM"/>
+                            <constraint firstItem="nNn-hz-e47" firstAttribute="leading" secondItem="tug-JD-tn8" secondAttribute="leading" constant="20" id="AEj-tj-NAv"/>
+                            <constraint firstItem="nNn-hz-e47" firstAttribute="top" secondItem="VlJ-4B-lcn" secondAttribute="bottom" constant="20" id="ALo-hA-LNl"/>
+                            <constraint firstItem="tug-JD-tn8" firstAttribute="bottom" secondItem="nNn-hz-e47" secondAttribute="bottom" constant="20" id="Cun-KF-Tbh"/>
+                            <constraint firstItem="VlJ-4B-lcn" firstAttribute="leading" secondItem="tug-JD-tn8" secondAttribute="leading" constant="20" id="VQy-Du-OVc"/>
+                            <constraint firstItem="tug-JD-tn8" firstAttribute="trailing" secondItem="nNn-hz-e47" secondAttribute="trailing" constant="20" id="XU8-QL-0NF"/>
+                            <constraint firstItem="VlJ-4B-lcn" firstAttribute="top" secondItem="8cK-Cl-khA" secondAttribute="bottom" constant="20" id="Xxc-W4-6ND"/>
+                            <constraint firstItem="8cK-Cl-khA" firstAttribute="leading" secondItem="tug-JD-tn8" secondAttribute="leading" constant="20" id="YIy-XT-7WE"/>
+                            <constraint firstItem="8cK-Cl-khA" firstAttribute="top" secondItem="tug-JD-tn8" secondAttribute="top" constant="35" id="qXa-X6-Puw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="tug-JD-tn8"/>
+                    </view>
+                    <connections>
+                        <outlet property="coursesTableView" destination="nNn-hz-e47" id="uWg-Rc-Xrt"/>
+                        <segue destination="foe-mh-mR2" kind="show" identifier="showCourseInfo" id="ze3-TS-eAn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LOd-G1-EEB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1927.5362318840582" y="132.88043478260872"/>
+        </scene>
+        <!--Info View Controller-->
+        <scene sceneID="FZb-na-WRh">
+            <objects>
+                <viewController id="foe-mh-mR2" customClass="InfoViewController" customModule="Hell_Week" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fCH-83-F7S">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gH3-7G-aA6" userLabel="Top Invisible View">
+                                <rect key="frame" x="0.0" y="19.999999999999986" width="414" height="216.66666666666663"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Course name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xa-yG-YQY">
+                                <rect key="frame" x="107.66666666666667" y="97.333333333333329" width="198.66666666666663" height="36.666666666666671"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat Light" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ih5-nm-M4c">
+                                <rect key="frame" x="176" y="166.33333333333334" width="62" height="27"/>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat SemiBold" pointSize="22"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="0.70004815924657537" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jhK-br-uV9">
+                                <rect key="frame" x="0.0" y="236.66666666666663" width="414" height="358"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="v5m-dn-8nU">
+                                        <rect key="frame" x="134.66666666666669" y="30.000000000000028" width="144.66666666666669" height="145"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="v5m-dn-8nU" secondAttribute="height" multiplier="1:1" id="nnI-lv-qbF"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fxm-p0-MFB" userLabel="Description">
+                                        <rect key="frame" x="41.333333333333343" y="242.00000000000003" width="331.33333333333326" height="18.999999999999972"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A short description of the course:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWF-gc-eR3">
+                                        <rect key="frame" x="75.666666666666686" y="205.00000000000003" width="263" height="21"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="v5m-dn-8nU" firstAttribute="top" secondItem="jhK-br-uV9" secondAttribute="top" constant="30" id="145-qV-wE6"/>
+                                    <constraint firstItem="v5m-dn-8nU" firstAttribute="width" secondItem="jhK-br-uV9" secondAttribute="width" multiplier="0.35" id="6V9-zw-YZW"/>
+                                    <constraint firstItem="fxm-p0-MFB" firstAttribute="centerX" secondItem="jhK-br-uV9" secondAttribute="centerX" id="8bg-mK-Imd"/>
+                                    <constraint firstItem="vWF-gc-eR3" firstAttribute="centerX" secondItem="jhK-br-uV9" secondAttribute="centerX" id="CGL-9w-ia2"/>
+                                    <constraint firstItem="vWF-gc-eR3" firstAttribute="top" secondItem="v5m-dn-8nU" secondAttribute="bottom" constant="30" id="SCn-gq-R28"/>
+                                    <constraint firstItem="v5m-dn-8nU" firstAttribute="centerX" secondItem="jhK-br-uV9" secondAttribute="centerX" id="TWe-ao-Tew"/>
+                                    <constraint firstItem="fxm-p0-MFB" firstAttribute="width" secondItem="jhK-br-uV9" secondAttribute="width" multiplier="0.8" id="kbI-oc-BPE"/>
+                                    <constraint firstItem="fxm-p0-MFB" firstAttribute="top" secondItem="vWF-gc-eR3" secondAttribute="bottom" constant="16" id="y2w-bN-jgG"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vdM-FR-VkB">
+                                <rect key="frame" x="62" y="635.66666666666663" width="290" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="bhX-e7-hOV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat SemiBold" pointSize="13"/>
+                                <state key="normal" title="FIND ANOTHER COURSE">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="0RL-CZ-Skx" kind="unwind" unwindAction="returnToCourses:" id="g0K-Nq-SFi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92143100499999997" green="0.92145264149999995" blue="0.92144101860000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ih5-nm-M4c" firstAttribute="centerX" secondItem="fCH-83-F7S" secondAttribute="centerX" id="0yq-Il-Zeg"/>
+                            <constraint firstItem="ih5-nm-M4c" firstAttribute="centerY" secondItem="gH3-7G-aA6" secondAttribute="centerY" multiplier="1.4" id="2do-SM-uBo"/>
+                            <constraint firstItem="vdM-FR-VkB" firstAttribute="bottom" secondItem="ZOb-qO-DU3" secondAttribute="bottom" multiplier="0.925" id="Csf-MH-XCc"/>
+                            <constraint firstItem="gH3-7G-aA6" firstAttribute="leading" secondItem="ZOb-qO-DU3" secondAttribute="leading" id="DAU-bV-rZv"/>
+                            <constraint firstItem="gH3-7G-aA6" firstAttribute="top" secondItem="ZOb-qO-DU3" secondAttribute="top" id="JkP-4e-jwz"/>
+                            <constraint firstItem="jhK-br-uV9" firstAttribute="centerY" secondItem="ZOb-qO-DU3" secondAttribute="centerY" multiplier="1.1" id="NHZ-1s-uyn"/>
+                            <constraint firstItem="ZOb-qO-DU3" firstAttribute="trailing" secondItem="gH3-7G-aA6" secondAttribute="trailing" id="T8B-L9-iFu"/>
+                            <constraint firstItem="7xa-yG-YQY" firstAttribute="centerX" secondItem="fCH-83-F7S" secondAttribute="centerX" id="Xid-ub-Cch"/>
+                            <constraint firstItem="vdM-FR-VkB" firstAttribute="width" secondItem="ZOb-qO-DU3" secondAttribute="width" multiplier="0.7" id="eof-6s-qPK"/>
+                            <constraint firstItem="jhK-br-uV9" firstAttribute="leading" secondItem="ZOb-qO-DU3" secondAttribute="leading" id="g2d-nD-NxO"/>
+                            <constraint firstItem="jhK-br-uV9" firstAttribute="height" secondItem="ZOb-qO-DU3" secondAttribute="height" multiplier="0.5" id="hbL-fe-5YH"/>
+                            <constraint firstItem="7xa-yG-YQY" firstAttribute="centerY" secondItem="gH3-7G-aA6" secondAttribute="centerY" multiplier="0.9" id="im1-bb-iml"/>
+                            <constraint firstItem="vdM-FR-VkB" firstAttribute="centerX" secondItem="fCH-83-F7S" secondAttribute="centerX" id="xmQ-lk-Sgd"/>
+                            <constraint firstItem="jhK-br-uV9" firstAttribute="trailing" secondItem="ZOb-qO-DU3" secondAttribute="trailing" id="zaz-1n-ID5"/>
+                            <constraint firstItem="jhK-br-uV9" firstAttribute="top" secondItem="gH3-7G-aA6" secondAttribute="bottom" id="zjG-6g-N2S"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZOb-qO-DU3"/>
+                    </view>
+                    <connections>
+                        <outlet property="courseDescriptionLabel" destination="fxm-p0-MFB" id="pIk-rK-v8Q"/>
+                        <outlet property="courseImageView" destination="v5m-dn-8nU" id="5Pz-Ap-DjI"/>
+                        <outlet property="courseNameLabel" destination="7xa-yG-YQY" id="Ix2-gR-MMH"/>
+                        <outlet property="groupNumLabel" destination="ih5-nm-M4c" id="Xw2-2E-any"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1jm-24-omm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="0RL-CZ-Skx" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2833.3333333333335" y="133.69565217391306"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="x18-YV-9Yk">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="zc2-xN-34p" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="a0B-Lt-6Nf">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="qfd-Eb-pic"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zJB-la-a2L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="188" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Exhaustion" width="700" height="589"/>
+        <image name="IB logo" width="118.55999755859375" height="116.40000152587891"/>
+        <image name="Sadness" width="700" height="594"/>
+        <image name="Stress" width="700" height="607"/>
+    </resources>
+</document>
